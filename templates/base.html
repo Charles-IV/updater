@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>LineageOS Downloads</title>
+        <title>Charles IV Downloads</title>
         <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
         <link rel="stylesheet" href="/static/site.css">
@@ -16,15 +16,15 @@
     <body>
         <nav>
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo center">LineageOS Downloads</a>
+                <a href="/" class="brand-logo center">Charles IV Downloads</a>
                 <ul id="slide-out" class="side-nav fixed">
                     <li>
                         <div class="userView">
                             <div class="background">
                                 <img src="/static/iconoclast.png">
 </div>
-                            <a href="#!user"><img class="logo circle" src="/static/logo.png" height=128px width=128px /></a>
-                            <a href="#!name"><span class="white-text name">Devices</span></a>
+                            <a href="/"><img class="logo circle" src="/static/logo.png" height=128px width=128px /></a>
+                            <a href="/"><span class="white-text name">Devices</span></a>
                         </div>
                     </li>
                     {% for oem in oem_to_devices.keys() | sort %}
@@ -85,6 +85,7 @@
           <div class="container">
             <div class="row">
               <div class="col l12 s12">
+                  <p class="grey-text text-lighten-4">I sign my builds. Don't ask why, I just thought it would be a fun project. All 14.1 builds should be signed. If you get an incompatible data error in twrp, use the <a class="grey-text text-lighten-1" href="/extra/migration.sh">migration.sh script</a> and follow the instructions <a class="grey-text text-lighten-1" href="https://wiki.lineageos.org/signing_builds.html#test-keys-to-official-or-vice-versa">here</a>.</p>
                   {% if not changelog %}
                   <p class="grey-text text-lighten-4">You can verify a file has not been tampered with by checking its signature. More information on how to do this can be found <a class="grey-text text-lighten-1" href="https://wiki.lineageos.org/verifying-builds.html">here</a>.</p>
                   {% endif %}

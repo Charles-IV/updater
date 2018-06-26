@@ -16,5 +16,5 @@ services:
       - "./devices.json:/app/devices.json"
       - "./devices_local.json:/app/devices_local.json"
     environment: 
-      - UPSTREAM_URL=http://nginx/builds.json
-      - DOWNLOAD_BASE_URL=https://nginx/builds
+      - UPSTREAM_URL=http://download.charles-iv.uk/builds.json
+      - DOWNLOAD_BASE_URL=https://download.charles-iv.uk/builds

@@ -1,1 +1,13 @@
-{}
+{
+    "grouper": [
+        {
+            "date": "2018-06-25", 
+            "filename": "lineage-14.1-20180625-UNOFFICIAL-grouper.zip", 
+            "filepath": "/lineage-14.1-20180625-UNOFFICIAL-grouper.zip", 
+            "sha256": "1c21323f8df89d2a915188d2a148f4536cd5544b72b5b6acaede1fb7bdf0e1be", 
+            "size": 283727571, 
+            "type": "unofficial", 
+            "version": "14.1"
+        }
+    ]
+}
